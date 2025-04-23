@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS my_entity (
+    id BIGSERIAL PRIMARY KEY,
+    business_key VARCHAR(255) UNIQUE NOT NULL,
+    field1 VARCHAR(255),
+    field2 VARCHAR(255),
+    field3 VARCHAR(255)
+);
