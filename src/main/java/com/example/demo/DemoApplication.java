@@ -34,7 +34,7 @@ public class DemoApplication {
 		MyEntity myEntity = all.orElseThrow();
 		Long id = myEntity.Id;
 		System.out.println("myGetMethod1...exit");
-		return String.format("Primary key is != %d", id);
+		return String.format("Primary key is > %d", id);
 	}
 
 
